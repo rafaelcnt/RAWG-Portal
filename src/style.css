@@ -1,0 +1,129 @@
+.logo {
+    border-radius: 50rem;
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+}
+
+#titles{
+    color: #c7296c;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+header {
+    min-height: 100px;
+    background-color: #c7296c;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.main-menu>ul>li {
+    display: inline-block;
+    margin-right: 100px;
+    color: #FFFFFF;
+}
+
+#details{
+    margin: auto;
+    text-align: center;
+}
+
+#searchBox {
+    margin: auto;
+    text-align: right;
+    background-color: #E0EEEE;
+    border: solid 2px #000000;
+    border-radius: 10px;
+    width: 20rem;
+    height: 35px;
+}
+
+#searchText {
+    float: right;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    height: 2rem;
+    width: 10rem;
+}
+
+#btnBusca {
+    float: right;
+    background-color: #171717;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+    color: black;
+}
+
+.portal {
+    margin: 0 auto;
+    background-color: #171717;
+    height: max-content;
+    padding: 2rem;
+    min-height: calc(100vh - 100px - 192px);
+}
+
+h1 {
+    text-align: center;
+    margin: 4rem;
+}
+
+#detailedCard{
+    margin-left: 10vw;
+    min-width:80vw;
+    height: 50vh;
+}
+
+#cardTitle{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+    color: #c7296c;
+}
+
+#cardText{
+    text-align: center;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding-bottom: 0.2rem;
+}
+
+hr{
+    font-weight: bold;
+}
+
+footer{
+    text-align: left;
+    padding: 2rem;
+    height: auto;
+    background-color: #c7296c;
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .menu-principal {
+        display: block;
+        padding: 10px;
+        height: max-content;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 0px;
+    }
+}
